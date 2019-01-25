@@ -6,14 +6,27 @@
 <ClInclude Include = "..\src\pch\targetver.h"/>
 </ItemGroup>
 <ItemGroup>	
-<ClInclude Include = "..\include\uc\os\windows\com_error.h"/>	
-<ClInclude Include = "..\include\uc\os\windows\com_initializer.h"/>	
-<ClInclude Include = "..\include\uc\sys\memcpy.h"/>	
-<ClInclude Include = "..\include\uc\sys\profile_timer.h"/>	
-<ClInclude Include = "..\include\uc\sys\spin_lock.h"/>	
-<ClInclude Include = "..\include\uc\util\bits.h"/>	
-<ClInclude Include = "..\include\uc\util\noncopyable.h"/>	
-<ClInclude Include = "..\include\uc\util\pimpl.h"/>	
-<ClInclude Include = "..\include\uc\util\pimpl_impl.h"/>	
-<ClInclude Include = "..\include\uc\util\utf8_conv.h"/>
+<ClInclude Include = "..\include\uc\import\anm\animation.h"/>	
+<ClInclude Include = "..\include\uc\import\assimp\animation.h"/>	
+<ClInclude Include = "..\include\uc\import\assimp\assimp_details.h"/>	
+<ClInclude Include = "..\include\uc\import\assimp\assimp_options.h"/>	
+<ClInclude Include = "..\include\uc\import\assimp\indexed_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\assimp\indexed_mesh_import.h"/>	
+<ClInclude Include = "..\include\uc\import\assimp\multi_material_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\assimp\skinned_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\animation.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\fbx_common.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\fbx_common_multi_material_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\fbx_common_transform.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\fbx_helpers.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\fbx_transform.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\fbx_transform_helper.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\indexed_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\multi_material_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\fbx\skinned_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\geo\indexed_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\geo\merge_attributes_indexed_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\geo\merge_attributes_skinned_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\geo\multi_material_mesh.h"/>	
+<ClInclude Include = "..\include\uc\import\geo\skinned_mesh.h"/>
 </ItemGroup></Project> 
