@@ -12,6 +12,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allows Native C++ Applications to use precompiled lzham</description>
     <tags>core,unique,uc,creator</tags>
+    <dependencies>
+        <dependency id="uc-core"/>
+        <dependency id="uc-math"/>
+        <dependency id="fbxsdk-2018-1-1-dll"/>
+    </dependencies>
   </metadata>
   <files>
     <file src = "include\**" target = "build/native/include" />
