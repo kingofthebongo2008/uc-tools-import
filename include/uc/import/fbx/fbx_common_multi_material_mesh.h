@@ -2,7 +2,7 @@
 
 #include <uc/util/utf8_conv.h>
 #include <uc/import/geo/multi_material_mesh.h>
-#include <experimental/filesystem>
+#include <filesystem>
 
 namespace uc
 {
@@ -14,7 +14,7 @@ namespace uc
             {
                 inline std::string material_name(const std::string& s)
                 {
-                    using namespace  std::experimental::filesystem;
+                    using namespace  std::filesystem;
                     auto wname = path(s).stem();
                     std::string data = util::utf8_from_utf16(wname);
                     std::transform(data.begin(), data.end(), data.begin(), [](auto x) -> char { return static_cast<char>(::tolower(x)); });
