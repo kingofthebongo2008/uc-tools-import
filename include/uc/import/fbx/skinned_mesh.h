@@ -443,7 +443,7 @@ namespace uc
 
                         for(auto&& p0: p)
                         {
-                            auto v = transform_from_dcc(math::load3_point(&p0), ctx);
+                            auto v = transform_from_dcc(math::load3u_point(&p0), ctx);
                             geo::skinned_mesh::position_t s;
                             math::store3u_point(&s, v);
                             pos.push_back(s);
@@ -472,7 +472,7 @@ namespace uc
 
                         for (auto&& p0 : p)
                         {
-                            auto v = transform_from_dcc(math::load3_point(&p0), ctx);
+                            auto v = transform_from_dcc(math::load3u_point(&p0), ctx);
                             geo::skinned_mesh::normal_t s;
                             math::store3u_point(&s, v);
                             pos.push_back(s);
