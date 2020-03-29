@@ -6,7 +6,7 @@ configuration: Release
 platform: x64
 clone_folder: c:\projects-kmf2l87bv6yj3trl
 install:
-  - cd {APPVEYOR_BUILD_FOLDER}
+  - cd c:\projects-kmf2l87bv6yj3trl
 build_script:
 - cmd: >-
     nuget restore c:\projects-kmf2l87bv6yj3trl\build\build.sln
