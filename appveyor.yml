@@ -4,14 +4,14 @@ pull_requests:
 image: Visual Studio 2019
 configuration: Release
 platform: x64
-clone_folder: c:\projects
+clone_folder: c:\projects-kmf2l87bv6yj3trl
 install:
   - cd {APPVEYOR_BUILD_FOLDER}
 build_script:
 - cmd: >-
-    nuget restore {APPVEYOR_BUILD_FOLDER}\build\build.sln
+    nuget restore c:\projects-kmf2l87bv6yj3trl\build\build.sln
 
-    msbuild c:\projects\build\build.sln /p:Configuration="Release" /verbosity:quiet
+    msbuild c:\projects-kmf2l87bv6yj3trl\build\build.sln /p:Configuration="Release" /verbosity:quiet
 artifacts:
 - path: '*.nupkg'
   name: Stefan Dyulgerov
