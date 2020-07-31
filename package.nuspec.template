@@ -15,7 +15,7 @@
     <dependencies>
         <dependency id="uc-core"/>
         <dependency id="uc-math"/>
-        <dependency id="fbxsdk-2018-1-1-dll"/>
+        <dependency id="fbxsdk-2020-1-0-dll"/>
     </dependencies>
   </metadata>
   <files>
