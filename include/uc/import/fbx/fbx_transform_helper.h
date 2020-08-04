@@ -18,6 +18,7 @@ namespace uc
 
                 math::float4x4 transform_from_dcc(math::afloat4x4 m, const fbx_context* ctx)
                 {
+                    return m;
                     if (ctx->m_coordinate_system_swap_y_z)
                     {
                         auto m0 = swap_y_z();
@@ -42,6 +43,7 @@ namespace uc
 
                 math::float4 transform_from_dcc(math::afloat4 m, const fbx_context* ctx)
                 {
+                    return m;
                     if (ctx->m_coordinate_system_swap_y_z)
                     {
                         auto m0 = swap_y_z();

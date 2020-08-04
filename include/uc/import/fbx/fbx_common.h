@@ -239,7 +239,7 @@ namespace uc
 
                     if (scene_axis_system != our_axis_system)
                     {
-                       our_axis_system.ConvertScene(scene.get());
+                       //our_axis_system.ConvertScene(scene.get());
                     }
 
                     fbxsdk::FbxSystemUnit units = scene->GetGlobalSettings().GetSystemUnit();
@@ -256,7 +256,7 @@ namespace uc
                     r->m_importer = std::move(importer);
                     {
                         int32_t sign;
-                        r->m_coordinate_system_swap_y_z = scene_axis_system.GetUpVector(sign) == fbxsdk::FbxAxisSystem::eZAxis;
+                        r->m_coordinate_system_swap_y_z = false;// scene_axis_system.GetUpVector(sign) == fbxsdk::FbxAxisSystem::eZAxis;
                         r->m_invert_handness            = true; //todo: from maya, always transform
                     }
                     return r;
