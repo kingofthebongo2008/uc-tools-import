@@ -35,7 +35,7 @@ namespace uc
 
                     for (auto&& i : v)
                     {
-                        if (j >= 4)
+                        if (j >= 8)
                         {
                             break;
                         }
@@ -54,7 +54,7 @@ namespace uc
 
                     for (auto&& i : v)
                     {
-                        if (j >= 4)
+                        if (j >= 8)
                         {
                             break;
                         }
@@ -935,6 +935,26 @@ namespace uc
                                 if (blend_weight_.w > 0.0f)
                                 {
                                     position[blend_index_.w].push_back(positions[blend_index]);
+                                }
+
+                                if (blend_weight_.a > 0.0f)
+                                {
+                                    position[blend_index_.a].push_back(positions[blend_index]);
+                                }
+
+                                if (blend_weight_.b > 0.0f)
+                                {
+                                    position[blend_index_.b].push_back(positions[blend_index]);
+                                }
+
+                                if (blend_weight_.c > 0.0f)
+                                {
+                                    position[blend_index_.c].push_back(positions[blend_index]);
+                                }
+
+                                if (blend_weight_.d > 0.0f)
+                                {
+                                    position[blend_index_.d].push_back(positions[blend_index]);
                                 }
                             }
                         }

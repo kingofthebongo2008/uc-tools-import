@@ -110,6 +110,11 @@ namespace uc
                     float y = 0.0f;
                     float z = 0.0f;
                     float w = 0.0f;
+
+                    float a = 0.0f;
+                    float b = 0.0f;
+                    float c = 0.0f;
+                    float d = 0.0f;
                 };
 
                 struct storage_blend_index
@@ -118,6 +123,11 @@ namespace uc
                     uint16_t y = 0;
                     uint16_t z = 0;
                     uint16_t w = 0;
+
+                    uint16_t a = 0;
+                    uint16_t b = 0;
+                    uint16_t c = 0;
+                    uint16_t d = 0;
                 };
 
                 struct face
